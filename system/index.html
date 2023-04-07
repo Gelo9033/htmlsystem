@@ -1,20 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-    <body style="background-color:rgb(107, 139, 122);">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SYSTEM.ON</title>
 </head>
 <body>
+    <header>
     <h1>SYSTEM.ON</h1>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">productos</a></li>
+            <li><a href="">promociones</a></li>
+            <li><a href="">marcas</a></li>
+            <li><a href="">ingreso</a></li>
+            <li><a href="">contactos</a></li>
+        </ul>
+    </nav>
+    </header>  
+    <section>
+        <h2>TECNOLOGIA AL ALCANCE DE TUS MANOS</h2>
+        <img src="imagen/banner.jpg" alt="banner">
+    </section>
     <Pre>
     todo es posible, solo debemos probar <br>intentemos algo nuevo 
     </Pre>
     <a href="https://support.hp.com/ec-es"><h3>HP SUPPORT</h3></a>
     <hr>
     <img src="imagen/robot.png" alt="robot">
-    
+    <table>
+        <tr>
+            <th>nombre</th>
+            <th>aplellido</th>
+            <th>edad</th>
+            
+        </tr>
+        <tr>
+            <td>luis</td>
+            <td>guaman</td>
+            <td>32</td>
+            
+        </tr>
+        <tr>
+            <td>jorge</td>
+            <td>mansuera</td>
+            <td>34</td>
+        </tr>
+    </table>
+    <h2>FORMULARIO</h2>
+    <form action="https://tecnomegastore.ec/" method="get" target="_blank">
+        <fieldset>
+          <legend>Información básica</legend>
+          <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+          <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+          <p>Gender:
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+          </p>
+          <p><label>Dirección: <input type="text" name="direccion"></label></p>
+          <p><label>Número telefónico: <input type="tel" name="telefono"></label></p>
+        </fieldset>
+        <fieldset>
+          <legend>Información extra</legend>
+          <p>Interests:
+            <label><input type="checkbox" name="libros"> Libros</label>
+            <label><input type="checkbox" name="peliculas"> Películas</label>
+            <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+          </p>
+          <p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>
+        </fieldset>
+        <p>
+          <input type="submit" value="Enviar datos">
+          <input type="reset" value="Restaurar formulario">
+        </p>
+      </form>
+      <footer>
+        @grlosystem100
+      </footer>
+
 </body>
 </html>
